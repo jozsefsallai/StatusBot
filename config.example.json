@@ -1,0 +1,16 @@
+{
+  "app": {
+    "token": "your bot token",
+    "guild": "your guild ID",
+    "channel": "ID of the log channel",
+    "activity": "(aka playing status), can be whatever you want, null if you don't need one",
+    "refreshInterval": 1,
+    "roleToMention": "the name of your role",
+    "timeout": 5,
+    "quiet": false
+  },
+  "domains": [
+    "https://google.com",
+    "https://discordapp.com"
+  ]
+}
