@@ -36,7 +36,7 @@ cp config.example.json config.json
 
 ## Configuration
 
-All the configuration is done in the `config.json` file. To get the guild and channel IDs, make sure to enable Developer Mode in your Discord settings. 
+All the configuration is done in the `config.json` file. To get the guild and channel IDs, make sure to enable **Developer Mode** in your Discord settings. 
 
 You need to enter each domain you want to check into the `domains` array (separated by comma). The domains **must** include the protocol (http or https). If the protocol is missing or is not http or https, the bot will mark it as unreachable.
 
