@@ -4,6 +4,12 @@
 
 A Discord bot that tells you if there's any problems with your websites. The app will send a new message to a specific channel from a specific Discord server at a given refresh interval.
 
+## How It Works
+
+The bot will automatically fetch all the websites you've provided to it and see if they are accessible. Then it will send a message to the channel you've specified, at a given refresh interval. The bot will separate the sites that are unavailable and the ones that throw an HTTP status code that is greater than or equal to 400, and will show them separately in the Discord message. Unless quiet mode is enabled, the bot will send a message even if all your websites are functional.
+
+---
+
 ## Prerequisites
  * Node v8+
  * A Discord server with a channel dedicated to the bot
