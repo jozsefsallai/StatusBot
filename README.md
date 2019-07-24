@@ -1,3 +1,7 @@
+**DEPRECATED. Please check [this](https://github.com/jozsefsallai/thimble-bot-custom-directives/blob/master/lib/StatusTracker.js) and the command/worker associated to it.**
+
+---
+
 # StatusBot
 
 [![Build Status](https://travis-ci.org/jozsefsallai/StatusBot.svg?branch=master)](https://travis-ci.org/jozsefsallai/StatusBot)
